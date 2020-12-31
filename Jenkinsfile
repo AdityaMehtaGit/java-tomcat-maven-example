@@ -21,7 +21,7 @@ pipeline {
 
         stage ('Deploy Build in Staging Area'){
             steps{
-
+            bat 'mvn clean '
                 build job : 'Deploy-StagingArea-Piple'
 
             }
