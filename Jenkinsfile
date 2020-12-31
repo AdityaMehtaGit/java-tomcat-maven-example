@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    if (env.BRANCH_NAME == 'master' || (env.BRANCH_NAME).startsWith('release/')) {}
     stages {
         stage ('Build Servlet Project') {
             steps {
