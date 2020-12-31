@@ -8,6 +8,7 @@ pipeline {
 
                 /*For Mac & Linux machine */
                // sh  'mvn clean package'
+                //
             }
 
             post{
